@@ -28,7 +28,9 @@ supabase.env.json
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
+.flutter-plugins
 .flutter-plugins-dependencies
+.packages
 .pub-cache/
 .pub/
 /build/
@@ -44,6 +46,8 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/android/.gradle/
+/android/captures/
 
 # Widget Preview related
 .widget_preview/
@@ -78,6 +82,18 @@ ios.backup-*/
 
 # VS Code local settings
 .vscode/
+
+# Xcode user-specific state and local build output
+**/xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Temporary and backup files (including Microsoft Office lock files)
+~$*
+*.tmp
+*.bak
+*.orig
+*.rej
 
 # Local reports and audit files
 HANARI_Strict_Professor_Audit.md
